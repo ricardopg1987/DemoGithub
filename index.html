@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comandos y Preguntas Frecuentes de Git y GitHub</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 2em; background: #f9f9f9; }
+        h1, h2 { color: #24292f; }
+        code { background: #eaeaea; padding: 2px 6px; border-radius: 4px; }
+        .faq, .commands { background: #fff; padding: 1em; border-radius: 8px; box-shadow: 0 2px 8px #0001; margin-bottom: 2em; }
+        ul { margin: 0 0 1em 1.5em; }
+    </style>
+</head>
+<body>
+    <h1>Comandos y Preguntas Frecuentes de Git y GitHub</h1>
+    <section class="commands">
+        <h2>Comandos Básicos de Git</h2>
+        <ul>
+            <li><code>git init</code> — Inicializa un nuevo repositorio Git.</li>
+            <li><code>git clone &lt;url&gt;</code> — Clona un repositorio remoto.</li>
+            <li><code>git status</code> — Muestra el estado de los archivos.</li>
+            <li><code>git add &lt;archivo&gt;</code> — Añade archivos al área de staging.</li>
+            <li><code>git commit -m "mensaje"</code> — Guarda los cambios en el repositorio.</li>
+            <li><code>git push</code> — Envía los cambios al repositorio remoto.</li>
+            <li><code>git pull</code> — Descarga y fusiona cambios del remoto.</li>
+            <li><code>git branch</code> — Lista las ramas existentes.</li>
+            <li><code>git checkout &lt;rama&gt;</code> — Cambia de rama.</li>
+            <li><code>git merge &lt;rama&gt;</code> — Fusiona una rama con la actual.</li>
+            <li><code>git log</code> — Muestra el historial de commits.</li>
+            <li><code>git remote -v</code> — Lista los repositorios remotos.</li>
+        </ul>
+    </section>
+    <section class="faq">
+        <h2>Preguntas Frecuentes</h2>
+        <ul>
+            <li><strong>¿Qué es Git?</strong><br>Un sistema de control de versiones distribuido.</li>
+            <li><strong>¿Qué es GitHub?</strong><br>Una plataforma para alojar repositorios Git y colaborar en proyectos.</li>
+            <li><strong>¿Cómo subo un proyecto a GitHub?</strong><br>Inicializa el repositorio con <code>git init</code>, haz commit de tus archivos, crea un repositorio en GitHub y usa <code>git remote add origin &lt;url&gt;</code> y <code>git push -u origin main</code>.</li>
+            <li><strong>¿Cómo soluciono conflictos de merge?</strong><br>Edita los archivos en conflicto, resuélvelos y haz <code>git add</code> seguido de <code>git commit</code>.</li>
+            <li><strong>¿Cómo ignoro archivos?</strong><br>Agrega los nombres de los archivos o carpetas en un archivo <code>.gitignore</code>.</li>
+            <li><strong>¿Cómo elimino un archivo del repositorio?</strong><br>Usa <code>git rm &lt;archivo&gt;</code> y luego <code>git commit</code>.</li>
+            <li><strong>¿Cómo veo los cambios realizados?</strong><br>Usa <code>git log</code> para ver el historial y <code>git diff</code> para ver diferencias.</li>
+        </ul>
+    </section>
+</body>
+</html>
